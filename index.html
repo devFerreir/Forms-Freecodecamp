@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="styles.css">    
+    <h1 id="title"> Freecodecamp Form</h1>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Raleway&display=swap" rel="stylesheet">
+  </head>
+   <body>
+     <p id="description">This form is for research purposes in the dev community</p>
+
+
+      <div class="container">
+          <fieldset>
+           <form id="survey-form">
+             <div>
+               <label id="name-label"> Name: </label> <br>
+           <input id="name" type="text" name="survey-form"      placeholder="Enter your name" required /> <br>    
+           </div>
+              <div>
+               <label id="email-label"> Email:</label>
+           <input id="email" type="email" name="survey-form" placeholder="Enter your email" required/> <br>          
+              </div>
+                <div>
+      <label id="number-label"> Age </label>
+         <input id="number" type="number" placeholder="Your age" name="survey-form" min="18" max="100"/>
+         <br>      
+          <div> 
+      <label for="lang" id="languages"> Languages you like the most: </label>
+      <select id="dropdown" name="languages">
+        <option value="javascript">JavaScript</option>
+        <option value="php">PHP</option>
+        <option value="java">Java</option>
+        <option value="golang">Golang</option>
+        <option value="python">Python</option>
+        <option value="c#">C#</option>
+        <option value="C++">C++</option>
+        <option value="erlang">Erlang</option>
+      </select>
+      <br>
+      </div> 
+         <div>
+        <label for="indoor"> 
+  <input id="indoor" value="indoor" type="radio" name="indoor-outdoor">Indoor 
+</label>
+</div>
+           <div>
+        <label for="outdoor"> 
+  <input id="outdoor" value="outdoor" type="radio" name="indoor-outdoor"> Outdoor 
+</label>
+<br>
+</div>
+        <div>
+        <label for="area"> 
+  <input id="area" value="area" type="checkbox" name="indoor-outdoor"> Front-end
+</label>
+</div>
+           <div>
+        <label for="area"> 
+  <input id="area" value="area" type="checkbox" name="indoor-outdoor"> Back-end
+</label>
+</div>
+<br>
+<br>
+
+    <div>
+      <label id="about"> About you: </label>
+<textarea id="bio" name="bio" rows="4" cols="50" placeholder="Tell us what inspires you to be a programmer...">
+</textarea>
+<br>
+</div>
+     <div>
+    <input id="submit" name="submit" type="submit">
+      </div>
+
+     </form>
+     </fieldset>
+     </div>
+  
+
+</body>
+
+    </html>
